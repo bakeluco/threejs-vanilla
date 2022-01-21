@@ -1,10 +1,6 @@
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 50vh;
-
-  /* font-family: brandon-grotesque, sans-serif;
-  font-weight: 400;
-  font-style: normal; */
 }
 
 body::-webkit-scrollbar {
@@ -31,9 +27,6 @@ main {
   margin: 0px auto;
   padding: 10vh 0px;
   justify-content: center;
-
-  /* display: grid;
-  grid-template-columns: repeat(12, 1fr); */
 }
 
 h1,
@@ -46,16 +39,6 @@ blockquote {
 }
 
 header {
-  /* background: var(--dark-bg); */
-  /* grid-column: 2 / span 5; */
-  /* grid-column: 4 / 10; */
-  /* justify-content: center; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* margin-left: 10vw; */
-  /* margin-right: 10vw; */
-  /* font-size: 2.5fr; */
-  /* padding: 5vh 0; */
   margin-bottom: var(--spacing);
   display: flex;
   justify-content: center;
@@ -64,10 +47,6 @@ header {
 }
 
 header h1 {
-  /* justify-content: center; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* max-width: 50%; */
   background: var(--dark-bg);
   padding: 2% 5%;
 }
@@ -77,8 +56,6 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* grid-column: 2 / 8; */
-  /* padding: 1rem; */
 }
 
 section div{
@@ -98,9 +75,6 @@ a{
 }
 
 blockquote {
-  /* margin: 100px; */
-  /* padding: 100px; */
-  /* grid-column: 4 / 10; */
   margin-bottom: var(--spacing);
   display: flex;
   justify-content: center;
@@ -112,22 +86,12 @@ blockquote p {
   color: black;
   background-color: white;
   padding: 2% 5%;
-  /* border-radius: 1%; */
   font-size: 1.5rem;
-  /* display: inline; */
-  /* line-height: 1; */
 }
 
-/* .left {
-  grid-column: 6 / 12;
-} */
-
 .light{
-  /* max-width: 80vw; */
   color: black;
   background-color: white;
-  /* font-size: 1.25rem; */
-  /* line-height: 1.5; */
   padding: 2% 5%;
   margin-bottom: var(--spacing);
 }
